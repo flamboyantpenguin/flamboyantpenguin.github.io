@@ -1,0 +1,170 @@
+<!DOCTYPE html5>
+
+<html>
+
+<head>
+    <title>
+        Portfolio de flamboyantpenguin
+    </title>
+
+    <link rel="stylesheet" href=".cfg/css/main.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+    <script type="module">
+        import '@material/web/all.js';
+        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
+
+        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="title_card">
+
+        <div class="title_left">
+
+            <div class="name">
+                <h1 id="title">ペンギン</h1>
+            </div>
+
+            <script>
+                const texts = [
+                    "ペンギン",
+                    "flamboyantpenguin",
+                    "Penguin",
+                    "DAWN/ペンギン"
+                ];
+
+                let i = 0;
+                const el = document.getElementById("title");
+
+                setInterval(() => {
+                    el.style.opacity = 0;
+
+                    setTimeout(() => {
+                        i = (i + 1) % texts.length;
+                        //el.nodeValue = text[i]
+                        el.textContent = texts[i];
+                        el.style.opacity = 1;
+                    }, 500); // match this with CSS transition
+                }, 3000); // every 3 seconds
+            </script>
+
+            <div class="desc">
+                Student, Developer and a Curious individual
+            </div>
+
+            <div class="contact">
+
+                <a id="emailButton">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                </a>
+
+                <md-dialog id="viewEmail">
+                    <div slot="headline">Email</div>
+                    <div slot="content">mail[at]flamboyantpenguin.in</div>
+                </md-dialog>
+
+                <a id="chatButton">
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                </a>
+
+                <md-dialog id="viewChat">
+                    <div slot="headline">Chat</div>
+                    <div slot="content">flamboyantpenguin:dawn.org.in</div>
+                </md-dialog>
+
+                <a href="https://github.com/flamboyantpenguin" target="_blank">
+                    <span>
+                        <i class="fa fa-github" style="font-size:25px;"></i>
+                    </span>
+                </a>
+
+                <a href="https://linkedin.com">
+                    <span>
+                        <i class="fa fa-linkedin" style="font-size:25px;"></i>
+                    </span>
+                </a>
+
+                <a href="https://blog.flamboyantpenguin.in" target="_blank">
+                    <span class="material-symbols-outlined">
+                        ink_pen
+                    </span>
+                </a>
+
+                <a href="https://code.dawn.org.in/flamboyantpenguin" target="_blank">
+                    <span class="material-symbols-outlined">
+                        code
+                    </span>
+                </a>
+
+            </div>
+
+
+            <div class="desc">
+                Undergraduate engineering Student from Kerala, India.
+                Tech and Philosophy is what I usually talk over a cup of tea though they're not the only topics.
+                I happen to chance upon some problems and my solutions can be found this page. Read my blog for more a
+                detailed writing of my experiences
+            </div>
+
+            <div class="section">
+
+                <div class="bullets">
+                    wikiLYNX
+                </div>
+
+                <div class="bullets">
+                    ygetG
+                </div>
+
+                <div class="bullets">
+                    easysftp
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="title_right">
+            <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.png" <div>
+        </div>
+
+        <div class="popup">
+
+            <div class="title">
+                wikiLYNX
+                <img src="https://cdn.dawn.org.in/projects/wikilynx/logo.svg">
+
+                <div class="desc">
+                    A simple Qt C++ app to play Wikipedia speedruns the right way
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src=".cfg/scripts/main.js"></script>
+
+</body>
+
+</html>
