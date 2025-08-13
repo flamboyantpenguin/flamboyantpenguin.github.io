@@ -64,7 +64,8 @@ a:hover {
     color: var(--font-color);
     size: 10%;
     text-align: justify;
-    max-width: 50%
+    max-width: 50%;
+    font-family: "Courier Prime";
 }
 
 .title_left .contact {
@@ -112,6 +113,7 @@ a:hover {
 }
 
 .popup {
+    z-index: -1;
     opacity: 0;
     display: flex;
     flex-direction: row;
