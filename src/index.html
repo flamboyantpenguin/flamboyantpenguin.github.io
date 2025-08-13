@@ -3,40 +3,34 @@
 <html>
 
 <head>
-    <title>
-        Portfolio de flamboyantpenguin
-    </title>
+    <title>Portal de flamboyantpenguin</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Set Base on Production -->
-    <script>
-        (function () {
-            const isLocalhost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
-            if (!isLocalhost) {
-                const base = document.getElementsByName("base");
-                base.href = "https://projects.dawn.org.in/wikilynx/";
-                document.head.appendChild(base);
-            }
-        })();
-    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oldenburg&display=swap"
+        rel="stylesheet">
 
+    <!-- Material and Font Awesome Icons -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Google M3 -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script type="importmap">
-        {
-        "imports": {
-            "@material/web/": "https://esm.run/@material/web/"
-        }
-        }
+        {"imports": {"@material/web/": "https://esm.run/@material/web/"}}
     </script>
     <script type="module">
         import '@material/web/all.js';
         import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
-
         document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
     </script>
 
@@ -49,9 +43,7 @@
 
         <div class="title_left">
 
-            <div class="name">
-                <h1 id="title">ペンギン</h1>
-            </div>
+            <div class="name"><h1 id="title">ペンギン</h1></div>
 
             <script>
                 const texts = [
