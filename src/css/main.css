@@ -59,7 +59,7 @@ a:hover {
     color: var(--font-color);
     size: 10%;
     text-align: justify;
-    max-width: 50%;
+    max-width: 50%
 }
 
 .title_left .contact {
@@ -149,7 +149,7 @@ a:hover {
     height: 30%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 00px) {
 
     .title_card {
         border-radius: 30px;

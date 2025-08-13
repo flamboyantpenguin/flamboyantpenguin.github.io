@@ -7,7 +7,19 @@
         Portfolio de flamboyantpenguin
     </title>
 
-    <link rel="stylesheet" href=".cfg/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Set Base on Production -->
+    <script>
+        (function () {
+            const isLocalhost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+            if (!isLocalhost) {
+                const base = document.getElementsByName("base");
+                base.href = "https://projects.dawn.org.in/wikilynx/";
+                document.head.appendChild(base);
+            }
+        })();
+    </script>
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -15,12 +27,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script type="importmap">
-    {
-      "imports": {
-        "@material/web/": "https://esm.run/@material/web/"
-      }
-    }
-  </script>
+        {
+        "imports": {
+            "@material/web/": "https://esm.run/@material/web/"
+        }
+        }
+    </script>
     <script type="module">
         import '@material/web/all.js';
         import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
@@ -64,7 +76,7 @@
                 }, 3000); // every 3 seconds
             </script>
 
-            <div class="desc">
+            <div class="desc" style="font-family: 'Courier New';">
                 Student, Developer and a Curious individual
             </div>
 
@@ -128,24 +140,12 @@
 
             <div class="section">
 
-                <div class="bullets">
-                    wikiLYNX
-                </div>
-
-                <div class="bullets">
-                    ygetG
-                </div>
-
-                <div class="bullets">
-                    easysftp
-                </div>
-
             </div>
 
         </div>
 
         <div class="title_right">
-            <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.png" <div>
+            <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.avif" <div>
         </div>
 
         <div class="popup">
@@ -163,7 +163,7 @@
         </div>
 
     </div>
-    <script src=".cfg/scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
 
 </body>
 
