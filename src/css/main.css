@@ -7,6 +7,11 @@
 body {
     background-image: url(../assets/bg.avif);
     background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
 }
 
 a {
@@ -55,7 +60,7 @@ a:hover {
 
 .title_left .desc {
     margin-left: 0;
-    margin-bottom: 50;
+    margin-bottom: 50px;
     color: var(--font-color);
     size: 10%;
     text-align: justify;
@@ -66,7 +71,7 @@ a:hover {
     display: flex;
     margin-left: 0;
     justify-content: space-between;
-    margin-bottom: 50;
+    margin-bottom: 50px;
     color: var(--font-color);
     max-width: 50%
 }
@@ -76,7 +81,7 @@ a:hover {
     flex-direction: column;
     margin-left: 0;
     max-width: 50%;
-    margin-bottom: 50;
+    margin-bottom: 50px;
     color: var(--font-color);
 }
 
@@ -149,12 +154,12 @@ a:hover {
     height: 30%;
 }
 
-@media screen and (max-width: 00px) {
+@media screen and (max-width: 800px) {
 
     .title_card {
         border-radius: 30px;
         height: 95%;
-        width: 85%;
+        width: 90%;
         flex-direction: column-reverse;
     }
 
