@@ -39,125 +39,132 @@
 </head>
 
 <body>
-    <div class="title_card">
 
-        <div class="title_left">
+    <div class="title_card_wrapper" id="titleCardWrapperMain">
+        <div class="title_card" id="titleCardMain">
 
-            <div class="name">
-                <h1 id="title">ペンギン</h1>
-            </div>
+            <div class="title_left">
 
-            <script>
-                const texts = [
-                    "ペンギン",
-                    "flamboyantpenguin",
-                    "Penguin",
-                    "DAWN/ペンギン"
-                ];
+                <div class="name">
+                    <h1 id="title">ペンギン</h1>
+                </div>
 
-                let i = 0;
-                const el = document.getElementById("title");
+                <script>
+                    const texts = [
+                        "ペンギン",
+                        "flamboyantpenguin",
+                        "Penguin",
+                        "DAWN/ペンギン"
+                    ];
 
-                setInterval(() => {
-                    el.style.opacity = 0;
+                    let i = 0;
+                    const el = document.getElementById("title");
 
-                    setTimeout(() => {
-                        i = (i + 1) % texts.length;
-                        //el.nodeValue = text[i]
-                        el.textContent = texts[i];
-                        el.style.opacity = 1;
-                    }, 500); // match this with CSS transition
-                }, 3000); // every 3 seconds
-            </script>
+                    setInterval(() => {
+                        el.style.opacity = 0;
 
-            <div class="desc" style="font-family: 'Courier Prime';">
-                Student, Developer and a Curious individual
-            </div>
+                        setTimeout(() => {
+                            i = (i + 1) % texts.length;
+                            //el.nodeValue = text[i]
+                            el.textContent = texts[i];
+                            el.style.opacity = 1;
+                        }, 500); // match this with CSS transition
+                    }, 3000); // every 3 seconds
+                </script>
 
-            <div class="contact">
+                <div class="desc" style="font-family: 'Courier Prime';">
+                    Student, Developer and a Curious individual
+                </div>
 
-                <a id="emailButton">
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span>
-                </a>
+                <div class="contact">
 
-                <md-dialog id="viewEmail">
-                    <div slot="headline">Email</div>
-                    <div slot="content">mail[at]flamboyantpenguin.in</div>
-                </md-dialog>
+                    <a id="emailButton">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                    </a>
 
-                <a id="chatButton">
-                    <span class="material-symbols-outlined">
-                        chat
-                    </span>
-                </a>
+                    <md-dialog id="viewEmail">
+                        <div slot="headline">Email</div>
+                        <div slot="content">mail[at]flamboyantpenguin.in</div>
+                    </md-dialog>
 
-                <md-dialog id="viewChat">
-                    <div slot="headline">Chat</div>
-                    <div slot="content">flamboyantpenguin:dawn.org.in</div>
-                </md-dialog>
+                    <a id="chatButton">
+                        <span class="material-symbols-outlined">
+                            chat
+                        </span>
+                    </a>
 
-                <a href="https://github.com/flamboyantpenguin" target="_blank">
-                    <span>
-                        <i class="fa fa-github" style="font-size:25px;"></i>
-                    </span>
-                </a>
+                    <md-dialog id="viewChat">
+                        <div slot="headline">Chat</div>
+                        <div slot="content">flamboyantpenguin:dawn.org.in</div>
+                    </md-dialog>
 
-                <a href="https://linkedin.com">
-                    <span>
-                        <i class="fa fa-linkedin" style="font-size:25px;"></i>
-                    </span>
-                </a>
+                    <a href="https://github.com/flamboyantpenguin" target="_blank">
+                        <span>
+                            <i class="fa fa-github" style="font-size:25px;"></i>
+                        </span>
+                    </a>
 
-                <a href="https://blog.flamboyantpenguin.in" target="_blank">
-                    <span class="material-symbols-outlined">
-                        ink_pen
-                    </span>
-                </a>
+                    <a href="https://linkedin.com">
+                        <span>
+                            <i class="fa fa-linkedin" style="font-size:25px;"></i>
+                        </span>
+                    </a>
 
-                <a href="https://code.dawn.org.in/flamboyantpenguin" target="_blank">
-                    <span class="material-symbols-outlined">
-                        code
-                    </span>
-                </a>
+                    <a href="https://blog.flamboyantpenguin.in" target="_blank">
+                        <span class="material-symbols-outlined">
+                            ink_pen
+                        </span>
+                    </a>
 
-            </div>
+                    <a href="https://code.dawn.org.in/flamboyantpenguin" target="_blank">
+                        <span class="material-symbols-outlined">
+                            code
+                        </span>
+                    </a>
 
+                </div>
 
-            <div class="desc">
-                Undergraduate engineering Student from Kerala, India.
-                Tech and Philosophy is what I usually talk over a cup of tea though they're not the only topics.
-                I happen to chance upon some problems and my solutions can be found this page. Read my blog for more a
-                detailed writing of my experiences
-            </div>
-
-            <div class="section">
-
-            </div>
-
-        </div>
-
-        <div class="title_right">
-            <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.avif" <div>
-        </div>
-
-        <div class="popup">
-
-            <div class="title">
-                wikiLYNX
-                <img src="https://cdn.dawn.org.in/projects/wikilynx/logo.svg">
 
                 <div class="desc">
-                    A simple Qt C++ app to play Wikipedia speedruns the right way
+                    Undergraduate engineering Student from Kerala, India.
+                    Tech and Philosophy is what I usually talk over a cup of tea though they're not the only topics.
+                    I happen to chance upon some problems and my solutions can be found this page. Read my blog for more
+                    a
+                    detailed writing of my experiences
+                </div>
+
+                <div class="section">
+
+                </div>
+
+            </div>
+
+            <div class="title_right">
+                <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.avif" <div>
+            </div>
+
+            <div class="popup">
+
+                <div class="title">
+                    wikiLYNX
+                    <img src="https://cdn.dawn.org.in/projects/wikilynx/logo.svg">
+
+                    <div class="desc">
+                        A simple Qt C++ app to play Wikipedia speedruns the right way
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
-
     </div>
-    <script src="scripts/main.js"></script>
+
+
+    <script src="scripts/dialogs.js"></script>
+    <script src="scripts/loadingScreen.js"></script>
 
 </body>
 
