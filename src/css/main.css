@@ -25,26 +25,10 @@ a:hover {
 
 
 .title_card {
-    background-color: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    height: 80%;
     padding: 3%;
-    border-radius: 100px;
-
-    display: flex;
-
-    opacity: 0
-}
-
-.title_card.ready {
-    opacity: 1;
-    transition: opacity 1s ease-in;
-}
-
-.title_card_wrapper {
-    width: 96%;
-    height: 92%;
-
-    border-width: 2px;
-    border-style: solid;
+    margin: auto;
 
     position: absolute;
     top: 0;
@@ -52,15 +36,24 @@ a:hover {
     left: 0;
     right: 0;
 
-    border-color: var(--secondary-color);
-
-    margin: auto;
-    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
 
     display: flex;
 
+    opacity: 0;
+    border-width: 2px;
+    border-style: solid;
+
     border-radius: 100px;
+    border-color: var(--secondary-color);
+
 }
+
+.title_card.ready {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
 
 .title_left {
     display: flex;
