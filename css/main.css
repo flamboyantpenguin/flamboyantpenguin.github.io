@@ -192,17 +192,18 @@ div::-webkit-scrollbar {
 @media screen and (max-width: 800px) {
 
     .title_card {
-        border-radius: 30px;
-        height: 95%;
         width: 90%;
+        height: 95%;
+        border-radius: 30px;
         flex-direction: column-reverse;
     }
 
     .title_left {
         flex: 1;
-        flex-grow: 1;
         height: 0%;
         width: 100%;
+        flex-grow: 1;
+
     }
 
     .title_left .title {
@@ -211,17 +212,19 @@ div::-webkit-scrollbar {
     }
 
     .title_left .contact {
-        max-width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
         margin-bottom: 20px;
         align-items: center;
+        justify-content: space-between;
     }
 
     .title_left .caption {
         height: auto;
-        margin-bottom: 20px;
         max-width: 100%;
+        margin-bottom: 20px;
+
     }
 
     .title_left .screen {
@@ -229,9 +232,9 @@ div::-webkit-scrollbar {
     }
 
     .title_right {
-        height: fit-content;
         flex-grow: 0;
         display: flex;
+        height: fit-content;
         align-items: flex-start;
         justify-content: center;
     }
