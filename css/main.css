@@ -1,17 +1,5 @@
-@import url(dark.css);
-
 * {
     font-family: "Comfortaa";
-}
-
-body {
-    background-image: url(../assets/bg.avif);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    min-width: 100%;
-    display: flex;
-    margin: 0px;
 }
 
 a {
@@ -37,7 +25,7 @@ a:hover {
     left: 0;
     right: 0;
 
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--background);
 
     display: flex;
 
@@ -62,7 +50,7 @@ a:hover {
     width: 50%;
 }
 
-.title_left .title {
+.title {
     height: 20%;
     margin-bottom: 10px;
     color: var(--primary-color);
@@ -70,27 +58,31 @@ a:hover {
     animation: opacity 1s ease-in-out;
 }
 
-.title_left .caption {
+.desc, .caption {
     margin-left: 0;
     margin-bottom: 50px;
-    color: var(--font-color);
+    color: var(--tertiary-color);
     size: 10%;
     text-align: justify;
     max-width: 70%;
     font-family: "Courier Prime";
 }
 
-.title_left .contact {
+.caption {
+    color: var(--secondary-color);
+}
+
+.contact {
     margin-bottom: 20px;
     width: 70%;
     display: flex;
     margin-left: 0;
     justify-content: space-around;
     height: fit-content;
-    color: var(--font-color);
+    color: var(--yin-color);
 }
 
-.title_left .screen {
+.screen {
     width: 70%;
     height: 40%;
     overflow-y: scroll;
@@ -104,7 +96,7 @@ div::-webkit-scrollbar {
 
 .buttons {
     flex: 1;
-    color: var(--font-color);
+    color: var(--yin-color);
     padding: 20px;
     border-color: var(--tertiary-color);
     border-style: solid;
@@ -117,11 +109,11 @@ div::-webkit-scrollbar {
 
 .buttons:hover {
     border-color: var(--secondary-color);
-    background-color: #000
+    background-color: var(--yang-color)
 }
 
 .buttons:active {
-    color: #000;
+    color: var(--yang-color);
     transform: scale(0.95);
     background-color: white;
     border-color: var(--primary-color)
@@ -167,7 +159,7 @@ div::-webkit-scrollbar {
 
 .popup .title {
     padding: 50px;
-    color: var(--font-color);
+    color: var(--yin-color);
     font-size: xx-large;
     font-family: 'Courier Prime'
 }
@@ -176,7 +168,7 @@ div::-webkit-scrollbar {
     padding-left: 50px;
     margin-left: 0;
     margin-bottom: 50;
-    color: var(--font-color);
+    color: var(--yin-color);
     size: 10%;
     text-align: justify;
     max-width: 50%;
@@ -206,12 +198,12 @@ div::-webkit-scrollbar {
 
     }
 
-    .title_left .title {
+    .title {
         height: auto;
         font-size: 100%;
     }
 
-    .title_left .contact {
+    .contact {
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
@@ -220,7 +212,7 @@ div::-webkit-scrollbar {
         justify-content: space-between;
     }
 
-    .title_left .caption {
+    .desc, .caption {
         height: auto;
         max-width: 100%;
         margin-bottom: 20px;

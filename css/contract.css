@@ -1,0 +1,22 @@
+:root {
+    --background-color: #181818;
+    --secondary-background-color: #000;
+    --primary-color: #F6F568;
+    --secondary-color: #E7B757;
+    --tertiary-color: #E9CA75;
+    --font-color: whitesmoke;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(../assets/earth.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}

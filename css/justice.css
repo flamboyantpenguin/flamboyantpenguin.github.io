@@ -1,0 +1,21 @@
+:root {
+    --background-color: #181818;
+    --secondary-background-color: #000;
+    --primary-color: #43E0EA;
+    --secondary-color: #B2D8F1;
+    --tertiary-color: #39AEB3;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(../assets/water.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}
