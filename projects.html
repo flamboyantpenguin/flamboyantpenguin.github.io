@@ -1,0 +1,206 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Projects de flamboyantpenguin</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oldenburg&display=swap"
+        rel="stylesheet">
+
+    <!-- Material and Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,code,home,ink_pen,mail,newspaper,school&display=block" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google M3 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+        {"imports": {"@material/web/": "https://esm.run/@material/web/"}}
+    </script>
+    <script type="module">
+        import '@material/web/dialog/dialog.js';
+        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
+        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <!-- Theme Script -->
+    <script src="scripts/themeLoader.js"></script>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="flamboyantpenguin">
+    <meta name="keywords" content="Portfolio, portal, projects, experiments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects and experiments by flamboyantpenguin">
+
+</head>
+
+<body>
+
+    <div class="title_card" id="titleCardMain">
+
+        <div class="title_left">
+
+            <div class="title">
+                <h1 id="title">ペンギン</h1>
+            </div>
+
+            <script defer>
+                const texts = [
+                    "Projects",
+                    "Experiments"
+                ];
+
+                let i = 0;
+                const el = document.getElementById("title");
+
+                setInterval(() => {
+                    el.style.opacity = 0;
+
+                    setTimeout(() => {
+                        i = (i + 1) % texts.length;
+                        //el.nodeValue = text[i]
+                        el.textContent = texts[i];
+                        el.style.opacity = 1;
+                    }, 500); // match this with CSS transition
+                }, 3000); // every 3 seconds
+            </script>
+
+            <div class="caption" style="font-family: 'Courier Prime';">
+                You can find my projects and experiments here
+            </div>
+
+            <div class="contact">
+
+                <a href="index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                </a>
+
+                <a href="career.html">
+                    <span class="material-symbols-outlined">
+                        school
+                    </span>
+                </a>
+
+                <a href="dev.html">
+                    <span class="material-symbols-outlined">
+                        newspaper
+                    </span>
+                </a>
+
+                <a href="https://github.com/flamboyantpenguin" target="_blank">
+                    <span>
+                        <i class="fa fa-github" style="font-size:25px;"></i>
+                    </span>
+                </a>
+
+                <a href="https://code.dawn.org.in/flamboyantpenguin" target="_blank">
+                    <span class="material-symbols-outlined">
+                        code
+                    </span>
+                </a>
+
+                <a href="https://blog.flamboyantpenguin.in" target="_blank">
+                    <span class="material-symbols-outlined">
+                        ink_pen
+                    </span>
+                </a>
+
+                <a id="emailButton">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                </a>
+
+                <md-dialog id="viewEmail">
+                    <div slot="headline">Email</div>
+                    <div slot="content">mail[at]flamboyantpenguin.in</div>
+                </md-dialog>
+
+                <a id="chatButton">
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                </a>
+
+                <md-dialog id="viewChat">
+                    <div slot="headline">Chat</div>
+                    <div slot="content">flamboyantpenguin:dawn.org.in</div>
+                </md-dialog>
+
+            </div>
+
+            <div class="screen">
+                <a href="https://projects.dawn.org.in/wikilynx/" target="_blank">
+                    <div class="big-buttons">
+                        wikiLYNX<br><br>
+                        A simple Qt C++ app to play wikipedia speedruns the right way
+                    </div>
+                </a>
+                <a href="https://github.com/flamboyantpenguin/easysftp" target="_blank">
+                    <div class="big-buttons">
+                        easysftp<br><br>
+                        A Python cli client to download files via sftp
+                    </div>
+                </a>
+                <a href="https://code.dawn.org.in/flamboyantpenguin/ygetg" target="_blank">
+                    <div class="big-buttons">
+                        ygetG<br><br>
+                        yt-dlp Slint on Rust wrapper plus bash script
+                    </div>
+                </a>
+                <a href="https://code.dawn.org.in/flamboyantpenguin/hyprdot" target="_blank">
+                    <div class="big-buttons">
+                        hyprdot<br><br>
+                        My take on Hyprland rice
+                    </div>
+                </a>
+                <a href="https://code.dawn.org.in/flamboyantpenguin/omadac-docker" target="_blank">
+                    <div class="big-buttons">
+                        omadac-docker<br><br>
+                        Container deployment for omada controller software
+                    </div>
+                </a>
+                <a href="https://github.com/flamboyantpenguin/socketexperiment0" target="_blank">
+                    <div class="big-buttons">
+                        sockerexperiment0<br><br>
+                        Experiments on Simple Java Sockets on Android
+                    </div>
+                </a>
+                <a href="https://github.com/flamboyantpenguin/shuffler" target="_blank">
+                    <div class="big-buttons">
+                        shuffler<br><br>
+                        My experiments on random string shuffling
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="title_right">
+            <div class="profile">
+                <img src="https://cdn.dawn.org.in/base/circle/bards/penguin/Profile.avif" <div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/dialogs.js"></script>
+    <script src="scripts/loadingScreen.js"></script>
+
+</body>
+
+</html>
