@@ -1,0 +1,22 @@
+:root {
+    --background-color: #181818;
+    --secondary-background-color: #000;
+    --primary-color: #68ACAB;
+    --secondary-color: #9EA8C2;
+    --tertiary-color: #68ACAB;
+    --font-color: whitesmoke;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(../assets/wind.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}

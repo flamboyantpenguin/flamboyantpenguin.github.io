@@ -1,0 +1,21 @@
+:root {
+    --background-color: #5a2c2c;
+    --secondary-background-color: #000;
+    --primary-color: #9F3847;
+    --secondary-color: #EC7A2E;
+    --tertiary-color: #B58A3F;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    background-image: url(../assets/fire.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}
