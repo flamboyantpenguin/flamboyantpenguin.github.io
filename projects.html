@@ -15,24 +15,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oldenburg&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@100..900&family=Oldenburg&display=swap"
         rel="stylesheet">
 
     <!-- Material and Font Awesome Icons -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,code,home,ink_pen,mail,newspaper,school&display=block" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=android,code,deployed_code,download,home,info,ink_pen,music_note,network_ping,raven,school,shuffle&display=block" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Google M3 -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script type="importmap">
-        {"imports": {"@material/web/": "https://esm.run/@material/web/"}}
-    </script>
-    <script type="module">
-        import '@material/web/dialog/dialog.js';
-        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
-        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
-    </script>
 
     <!-- Theme Script -->
     <script src="scripts/themeLoader.js"></script>
@@ -95,15 +84,15 @@
                     </span>
                 </a>
 
-                <a href="dev.html">
+                <a href="https://blog.flamboyantpenguin.in" target="_blank">
                     <span class="material-symbols-outlined">
-                        newspaper
+                        ink_pen
                     </span>
                 </a>
 
-                <a href="https://github.com/flamboyantpenguin" target="_blank">
-                    <span>
-                        <i class="fa fa-github" style="font-size:25px;"></i>
+                <a href="https://music.flamboyantpenguin.in" target="_blank">
+                    <span class="material-symbols-outlined">
+                        music_note
                     </span>
                 </a>
 
@@ -113,79 +102,106 @@
                     </span>
                 </a>
 
-                <a href="https://blog.flamboyantpenguin.in" target="_blank">
-                    <span class="material-symbols-outlined">
-                        ink_pen
+                <a href="https://github.com/flamboyantpenguin" target="_blank">
+                    <span>
+                        <i class="fa fa-github" style="font-size:25px;"></i>
                     </span>
                 </a>
 
-                <a id="emailButton">
+                <a href="about.html">
                     <span class="material-symbols-outlined">
-                        mail
+                        info
                     </span>
                 </a>
-
-                <md-dialog id="viewEmail">
-                    <div slot="headline">Email</div>
-                    <div slot="content">mail[at]flamboyantpenguin.in</div>
-                </md-dialog>
-
-                <a id="chatButton">
-                    <span class="material-symbols-outlined">
-                        chat
-                    </span>
-                </a>
-
-                <md-dialog id="viewChat">
-                    <div slot="headline">Chat</div>
-                    <div slot="content">flamboyantpenguin:dawn.org.in</div>
-                </md-dialog>
 
             </div>
 
             <div class="screen">
+
                 <a href="https://projects.dawn.org.in/wikilynx/" target="_blank">
                     <div class="big-buttons">
                         wikiLYNX<br><br>
                         A simple Qt C++ app to play wikipedia speedruns the right way
+                        <div>
+                            <img src="https://cdn.dawn.org.in/projects/wikilynx/logo.svg" width="100px">
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://github.com/flamboyantpenguin/easysftp" target="_blank">
                     <div class="big-buttons">
                         easysftp<br><br>
-                        A Python cli client to download files via sftp
+                        A Python cli client to download files via <br>sftp
+                        <div>
+                            <span class="material-symbols-outlined">
+                                download
+                            </span>
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://code.dawn.org.in/flamboyantpenguin/ygetg" target="_blank">
                     <div class="big-buttons">
                         ygetG<br><br>
                         yt-dlp Slint on Rust wrapper plus bash script
+                        <div>
+                            <img src="https://code.dawn.org.in/flamboyantpenguin/ygetg/raw/branch/master/ui/assets/img/logo.svg"
+                                width="100px">
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://code.dawn.org.in/flamboyantpenguin/hyprdot" target="_blank">
                     <div class="big-buttons">
                         hyprdot<br><br>
                         My take on Hyprland rice
+                        <div>
+                            <span class="material-symbols-outlined">
+                                raven
+                            </span>
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://code.dawn.org.in/flamboyantpenguin/omadac-docker" target="_blank">
                     <div class="big-buttons">
                         omadac-docker<br><br>
                         Container deployment for omada controller software
+                        <div>
+                            <span class="material-symbols-outlined">
+                                deployed_code
+                            </span>
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://github.com/flamboyantpenguin/socketexperiment0" target="_blank">
                     <div class="big-buttons">
                         sockerexperiment0<br><br>
                         Experiments on Simple Java Sockets on Android
+                        <div style="display: flex; flex-direction: row;">
+                            <span class="material-symbols-outlined">
+                                android
+                            </span>
+                            <span class="material-symbols-outlined">
+                                network_ping
+                            </span>
+                        </div>
                     </div>
                 </a>
+
                 <a href="https://github.com/flamboyantpenguin/shuffler" target="_blank">
                     <div class="big-buttons">
                         shuffler<br><br>
                         My experiments on random string shuffling
+                        <div>
+                            <span class="material-symbols-outlined">
+                                shuffle
+                            </span>
+                        </div>
                     </div>
                 </a>
+
             </div>
 
         </div>
