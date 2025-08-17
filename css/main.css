@@ -172,6 +172,8 @@ div::-webkit-scrollbar {
 }
 
 .profile-front span, .profile-back span {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     color: var(--secondary-color);
     font-size: 10em;
 }
@@ -182,6 +184,9 @@ div::-webkit-scrollbar {
 
 .profile-front img,
 .profile-back img {
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     width: 50%;
     margin-right: 0%;
     border-width: 2px;
@@ -212,6 +217,7 @@ div::-webkit-scrollbar {
     border-radius: 20px;
     border-style: solid;
     border-color: var(--secondary-color);
+    background-color: var(--yang-color);
 
     animation: opacity 1s ease-in-out
 }
