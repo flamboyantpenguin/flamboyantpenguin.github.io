@@ -7,7 +7,7 @@ This respository hosts the source code of my [website](https://flamboyantpenguin
 - wind: [Nature Dandelion](https://wall.alphacoders.com/big.php?i=938855)
 - earth: [ToDo](https://images.google.com)
 - lightning: [Lighting Strike](https://applescoop.org/view?wallpaper=948)
-- life: Me
+- life: [life by flamboyantpenguin](https://flamboyantpenguin.in/assets/life.avif)
 - water: [pexels](https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg)
 - fire: [Vibrant Flames by QuantumCurator](https://wall.alphacoders.com/big.php?i=1383004)
 - snow: [close-up-photography-of-snow by Egor Kamelev](https://www.pexels.com/photo/close-up-photography-of-snowflake-813872/)
@@ -15,6 +15,6 @@ This respository hosts the source code of my [website](https://flamboyantpenguin
 ```Txt
 Portal de flamboyantpenguin
 
-Last Updated: 16-08-2025
+Last Updated: 17-08-2025
 DAWN/ペンギン
 ```
