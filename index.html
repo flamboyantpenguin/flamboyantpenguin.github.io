@@ -20,7 +20,7 @@
 
     <!-- Material and Font Awesome Icons -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,code,home,info,ink_pen,mail,music_note,newspaper,school&display=block" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,cloud,code,home,info,ink_pen,mail,music_note,newspaper,school&display=block" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Theme Script -->
@@ -98,6 +98,15 @@
                     flamboyantpenguin:dawn.org.in
                 </div>
 
+                <a id="weatherButton">
+                    <span class="material-symbols-outlined">
+                        cloud
+                    </span>
+                </a>
+
+                <div class="popup" id="weatherDialog">
+                </div>
+
                 <a href="https://code.dawn.org.in/flamboyantpenguin" target="_blank">
                     <span class="material-symbols-outlined">
                         code
@@ -125,6 +134,7 @@
             </div>
 
             <div class="y-scrollable">
+
                 <div class="desc">
                     Undergraduate engineering student from Kerala, India.
                     Tech and Philosophy is what I usually talk over a cup of tea though one wishes to resonate with the
@@ -136,8 +146,9 @@
                 </div>
 
                 <div class="screen">
+
                     <a href="projects.html">
-                        <div class="buttons">
+                        <div class="button">
                             Projects
                             <div>
                                 <span class="material-symbols-outlined">
@@ -146,8 +157,9 @@
                             </div>
                         </div>
                     </a>
+
                     <a href="career.html">
-                        <div class="buttons">
+                        <div class="button">
                             Career
                             <div>
                                 <span class="material-symbols-outlined">
@@ -156,8 +168,9 @@
                             </div>
                         </div>
                     </a>
+
                     <a href="https://blog.flamboyantpenguin.in" target="_blank">
-                        <div class="buttons">
+                        <div class="button">
                             Blog
                             <div>
                                 <span class="material-symbols-outlined">
@@ -166,8 +179,9 @@
                             </div>
                         </div>
                     </a>
+
                     <a href="https://music.flamboyantpenguin.in" target="_blank">
-                        <div class="buttons">
+                        <div class="button">
                             Music
                             <div>
                                 <span class="material-symbols-outlined">
@@ -176,8 +190,9 @@
                             </div>
                         </div>
                     </a>
+
                     <a href="dev.html">
-                        <div class="buttons">
+                        <div class="button">
                             dev.to
                             <div>
                                 <span class="material-symbols-outlined">
@@ -186,8 +201,9 @@
                             </div>
                         </div>
                     </a>
+
                     <a href="about.html">
-                        <div class="buttons">
+                        <div class="button">
                             About
                             <div>
                                 <span class="material-symbols-outlined">
@@ -196,11 +212,9 @@
                             </div>
                         </div>
                     </a>
+
                 </div>
             </div>
-
-
-
 
         </div>
 
@@ -221,7 +235,7 @@
 
     </div>
 
-
+    <script src="scripts/temp2.js"></script>
     <script src="scripts/dialogs.js"></script>
     <script src="scripts/loadingScreen.js"></script>
 
