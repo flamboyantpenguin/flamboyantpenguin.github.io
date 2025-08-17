@@ -93,8 +93,8 @@ div::-webkit-scrollbar {
     display: none
 }
 
-.buttons,
-.big-buttons {
+.button,
+.big-button {
     flex: 1;
     padding: 20px;
     font-size: 120%;
@@ -111,18 +111,18 @@ div::-webkit-scrollbar {
     justify-content: space-between;
 }
 
-.big-buttons {
+.big-button {
     border-radius: 20px;
 }
 
-.buttons:hover,
-.big-buttons:hover {
+.button:hover,
+.big-button:hover {
     background-color: var(--yang-color);
     border-color: var(--secondary-color)
 }
 
-.buttons:active,
-.big-buttons:hover {
+.button:active,
+.big-button:hover {
     transform: scale(0.95);
     color: var(--yang-color);
     background-color: white;
@@ -301,7 +301,7 @@ div::-webkit-scrollbar {
         justify-content: center
     }
 
-    .big-buttons {
+    .big-button {
         font-size: 100%
     }
 
