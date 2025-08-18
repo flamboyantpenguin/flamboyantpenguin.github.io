@@ -97,7 +97,8 @@ div::-webkit-scrollbar {
 .big-button {
     flex: 1;
     padding: 20px;
-    font-size: 120%;
+    font-size: 100%;
+    overflow-x: scroll;
     border-style: solid;
     margin-bottom: 20px;
     border-radius: 100px;
@@ -108,11 +109,11 @@ div::-webkit-scrollbar {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .big-button {
-    border-radius: 20px;
+    border-radius: 20px
 }
 
 .button:hover,
