@@ -130,6 +130,11 @@ div::-webkit-scrollbar {
     border-color: var(--primary-color)
 }
 
+.big-button.special {
+    border-color: var(--yin-color);
+    color: var(--primary-color);
+}
+
 .title_right {
     flex: 1;
     display: flex;
