@@ -1,0 +1,20 @@
+:root {
+    --background-color: #181818;
+    --primary-color: #A0B3BA;
+    --secondary-color: #5B8EC9;
+    --tertiary-color: #6e5daa;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(../assets/moon.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100dvh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}
