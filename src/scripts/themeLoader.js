@@ -48,7 +48,7 @@ var date = new Date();
 let link = document.createElement('link');
 let head = document.getElementsByTagName('HEAD')[0];
 
-if (getMoonPhase(date.getFullYear(), date.getMonth(), date.getDate()) == 4) {
+if (getMoonPhase(date.getFullYear(), date.getMonth(), date.getDate()) == 4 && date.getHours() > 21) {
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = 'css/moon.css';
