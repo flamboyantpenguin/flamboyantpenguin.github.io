@@ -130,9 +130,32 @@ div::-webkit-scrollbar {
     border-color: var(--primary-color)
 }
 
+@keyframes example {
+    0% {
+        border-color: var(--primary-color);
+        color: var(--tertiary-color);
+    }
+
+    33% {
+        border-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    66% {
+        border-color: var(--tertiary-color);
+        color: var(--secondary-color);
+    }
+
+    100% {
+        border-color: var(--primary-color);
+        color: var(--tertiary-color);
+    }
+}
+
 .big-button.special {
-    border-color: var(--yin-color);
-    color: var(--primary-color);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .title_right {
