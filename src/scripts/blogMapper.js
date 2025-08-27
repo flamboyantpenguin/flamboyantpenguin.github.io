@@ -17,9 +17,11 @@ fetch("https://blog.flamboyantpenguin.in/feed.xml")
             element.innerHTML = `
                 <a href = "${url}" target="_blank">
                 <div class = "big-button">
-                    ${title}<br><br>
-                    ${summary}
-                    <br><br>${pbDate}
+                    <div>
+                        ${title}<br><br>
+                        ${summary}
+                        <br><br>${pbDate}
+                    </div>
                 </div>
                 </a>`;
             container.appendChild(element);

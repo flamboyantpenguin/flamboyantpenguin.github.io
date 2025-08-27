@@ -112,6 +112,10 @@ div::-webkit-scrollbar {
     justify-content: space-between
 }
 
+.button div, .big-button div {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .big-button {
     border-radius: 20px
 }
