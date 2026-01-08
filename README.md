@@ -1,6 +1,6 @@
 # Portal de flamboyantpenguin 🌐
 
-This respository hosts the source code of my [website](https://flamboyantpenguin.in). It ain't much but feel free to go through it!
+This respository hosts the source code of my [website](https://flamboyantpenguin.in)
 
 ## Wallpaper Credits
 
@@ -12,10 +12,11 @@ This respository hosts the source code of my [website](https://flamboyantpenguin
 - war: [`Vibrant Flames` by QuantumCurator](https://wall.alphacoders.com/big.php?i=1383004)
 - love: [`close-up-photography-of-snow` by Egor Kamelev](https://www.pexels.com/photo/close-up-photography-of-snowflake-813872/)
 - moon: [`Immersed in the mystique of a captivating blue moon` by Aron Visuals](https://unsplash.com/photos/a-full-moon-is-seen-through-the-clouds-jJ_CskRaG3g)
+- newyear: [`Fireworks, Bright, Night image` by svetlanabar](https://pixabay.com/photos/fireworks-bright-night-celebration-5270439/)
 
 ```Txt
 Portal de flamboyantpenguin
 
-Last Updated: 22-08-2025
-DAWN/ペンギン
+Last Updated: 08-01-2026 | Happy New Year!
+ペンギン
 ```
