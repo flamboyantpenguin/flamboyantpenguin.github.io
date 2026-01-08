@@ -48,7 +48,7 @@ var date = new Date();
 let link = document.createElement('link');
 let head = document.getElementsByTagName('HEAD')[0];
 
-if (date.getDate() == "8" && date.getMonth() == "0") {
+if (date.getDate() == "1" && date.getMonth() == "0") {
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = 'css/newyear.css';
