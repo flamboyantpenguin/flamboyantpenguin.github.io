@@ -1,0 +1,23 @@
+:root {
+    --background-color: #181818;
+    --secondary-background-color: #000;
+    --primary-color: #A8C8FF;
+    --secondary-color: #BDC7DC;
+    --tertiary-color: #DBBCE1;
+    --font-color: whitesmoke;
+    --yin-color: white;
+    --yang-color: #000;
+
+    --background: rgba(0, 0, 0, 0.7);
+
+}
+
+body {
+    background-image: url(../assets/newyear.avif);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100dvh;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+}

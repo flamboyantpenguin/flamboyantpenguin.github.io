@@ -31,7 +31,7 @@ a:hover {
     border-width: 2px;
     border-style: solid;
 
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: var(--background);
     border-color: var(--secondary-color)
 }
