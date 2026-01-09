@@ -4,11 +4,11 @@ This respository hosts the source code of my [website](https://flamboyantpenguin
 
 ## Wallpaper Credits
 
-- freedom: [Nature Dandelion](https://wall.alphacoders.com/big.php?i=938855)
+- freedom: [`Dandelion Dritf` discovered by bytecodeminer](https://wall.alphacoders.com/big.php?i=938855)
 - contracts: [Lantern Rite at Liyue | Genshin Impact Screenshot](https://in.pinterest.com/pin/344877283973458278/)
 - eternity: [Lighting Strike](https://applescoop.org/view?wallpaper=948)
 - wisdom: [`leaves_teal` by flamboyantpenguin](https://data.dawn.org.in/s/kSSESjQfgtSJ7jM)
-- justice: [pexels](https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg)
+- justice: [`school of fish in body of water` by Francesco Ungaro](https://unsplash.com/photos/school-of-fish-in-body-of-water-MJ1Q7hHeGlA)
 - war: [`Vibrant Flames` by QuantumCurator](https://wall.alphacoders.com/big.php?i=1383004)
 - love: [`close-up-photography-of-snow` by Egor Kamelev](https://www.pexels.com/photo/close-up-photography-of-snowflake-813872/)
 - moon: [`Immersed in the mystique of a captivating blue moon` by Aron Visuals](https://unsplash.com/photos/a-full-moon-is-seen-through-the-clouds-jJ_CskRaG3g)
@@ -17,6 +17,6 @@ This respository hosts the source code of my [website](https://flamboyantpenguin
 ```Txt
 Portal de flamboyantpenguin
 
-Last Updated: 08-01-2026 | Happy New Year!
+Last Updated: 10-01-2026 | Happy New Year!
 ペンギン
 ```
