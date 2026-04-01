@@ -247,8 +247,8 @@ div::-webkit-scrollbar {
     position: absolute;
 
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     border-width: 2px;
     border-radius: 20px;
@@ -257,6 +257,18 @@ div::-webkit-scrollbar {
     background-color: var(--yang-color);
 
     animation: opacity 1s ease-in-out
+}
+
+.popup strong {
+    margin-bottom: 8px;
+}
+
+.popup a {
+    text-decoration: none;
+    font-family: "Courier Prime", monospace;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
 }
 
 .popup.show {
