@@ -20,7 +20,7 @@
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,code,home,info,ink_pen,mail,music_note,school&display=block" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chat,code,home,info,ink_pen,key_vertical,mail,music_note,school&display=block" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Theme Script -->
@@ -83,8 +83,20 @@
                 </a>
 
                 <div class="popup" id="emailDialog">
-                    Email<br><br>
+                    <strong>Email</strong>
                     mail [at] flamboyantpenguin [dot] in
+                </div>
+
+                <a id="pgpButton">
+                    <span class="material-symbols-outlined">
+                        key_vertical
+                    </span>
+                </a>
+
+                <div class="popup" id="pgpDialog">
+                    <strong>OpenPGP | keys.openpgp.org </strong>
+                    <a href = "https://keys.openpgp.org/vks/v1/by-fingerprint/7C1DC2D9B3B5B5BC357F3D3225F121A7AD076475">25F121A7AD076475</a><br>
+                    <a href = "https://keys.openpgp.org/vks/v1/by-fingerprint/52B1D0CDBBFA81394DB495D9D63EC529DEE48B41">D63EC529DEE48B41</a>
                 </div>
 
                 <a id="chatButton">
@@ -94,7 +106,7 @@
                 </a>
 
                 <div class="popup" id="chatDialog">
-                    Chat | Matrix<br><br>
+                    <strong>Chat | Matrix<br><br></strong>
                     flamboyantpenguin:dawn.org.in
                 </div>
 
